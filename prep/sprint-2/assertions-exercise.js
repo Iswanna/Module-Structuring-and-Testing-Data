@@ -17,9 +17,10 @@ console.assert(
   `current output: ${currentOutput}, target output: ${targetOutput}`
 );
 
-const currentOutput1 = formatAs12HourClock("23:00");
-const targetOutput1 = "11:00 pm";
+
+const currentOutput2 = formatAs12HourClock("23:00");
+const targetOutput2 = "11:00 pm";
 console.assert(
-  currentOutput === targetOutput,
-  `current output: ${currentOutput}, target output: ${targetOutput}`
+  currentOutput2 === targetOutput2,
+  `current output: ${currentOutput2}, target output: ${targetOutput2}`
 );
